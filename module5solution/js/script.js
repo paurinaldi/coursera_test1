@@ -250,7 +250,7 @@ function buildMenuItemsViewHtml(categoryMenuItems,
 
   menuItemsTitleHtml =
     insertProperty(menuItemsTitleHtml,
-                   "name",
+                   "short_name",
                    categoryMenuItems.category.name);
   menuItemsTitleHtml =
     insertProperty(menuItemsTitleHtml,
